@@ -51,20 +51,9 @@
 	}
 }
 
-.feature-icon {
-	display: inline-flex; 
-	margin-bottom: 16px;
-
-	img,
-	svg {
-		max-width: 300px;
-		max-height: 200px;
-	}
-}
-
 .feature-content{
 	display: table-cell;
-	width: 66.666666%;//to make roughly 100%
+	width: 50%;
 	vertical-align: middle;
 	-webkit-hyphens: auto;//new property so needs prefixes to work in modern browsers
 	-moz-hyphens: auto;
@@ -127,18 +116,17 @@
 	.feature-inner {
 		display: table;
 		// flex-direction: column;
-		align-items: center;
+		// align-items: center;
 
 		
 	}
 
 	.feature-icon {
 		display: table-cell;
-		width: 33.3333333%;//to make roughly 100%
+		width: 50%;
         vertical-align: middle;
-		margin-top: 8px;
-		margin-right: 32px;
-		margin-bottom: 0;
+		
+
 	}
 
 	.feature-title {

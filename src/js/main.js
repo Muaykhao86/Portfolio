@@ -26,6 +26,13 @@
     body.classList.add('is-loaded')
   })
 
+  // Video PLayback
+
+  const videos = document.querySelectorAll('video')
+  videos.forEach(video => {
+    video.playbackRate = 0.25
+  })
+
   // Reveal animations
   function revealAnimations () {
     sr.reveal('.feature', {
