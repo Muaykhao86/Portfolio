@@ -5,19 +5,33 @@
   const lightSwitch = doc.getElementById('lights-toggle')
   /* global ScrollReveal */
   const sr = window.sr = ScrollReveal()
-  const contactButtons = doc.querySelectorAll('#contact')
+  const contactButtons = doc.querySelectorAll('#contactButton')
   const contactSection = doc.querySelector('.contact')
-  const closeButton = doc.querySelector('#close')
+  const aboutMeSection = doc.querySelector('.aboutMe')
+  const aboutMeButton = doc.querySelector('#aboutMeButton')
+  const closeButtons = doc.querySelectorAll('#close')
 
-  function revealSection () {
-    contactSection.classList.add('visible')
+  function revealSection (e) {
+    // console.log(e.target.id)
+    if (e.target.id === 'contactButton') {
+      contactSection.classList.add('visible')
+    }
+    if (e.target.id === 'aboutMeButton') {
+      aboutMeSection.classList.add('visible')
+    }
   }
-  function closeSection () {
-    contactSection.classList.remove('visible')
+  function closeSection (e) {
+    if (e.target.parentElement.parentElement.parentElement.id === 'contact') {
+      contactSection.classList.remove('visible')
+    }
+    if (e.target.parentElement.parentElement.parentElement.id === 'aboutMe') {
+      aboutMeSection.classList.remove('visible')
+    }
   }
 
   contactButtons.forEach(button => button.addEventListener('click', revealSection))
-  closeButton.addEventListener('click', closeSection)
+  aboutMeButton.addEventListener('click', revealSection)
+  closeButtons.forEach(button => button.addEventListener('click', closeSection))
 
   rootEl.classList.remove('no-js')
   rootEl.classList.add('js')
@@ -26,7 +40,7 @@
     body.classList.add('is-loaded')
   })
 
-  // Video PLayback
+  // Skillset card video playback
 
   const videos = document.querySelectorAll('video')
   videos.forEach(video => {
