@@ -46,7 +46,7 @@
     "onchange": "^6.1.0",
     "postcss-cli": "^7.1.0",
     "rimraf": "^2.7.1",
-    "stylelint": "^14.13.0",
+    "stylelint": "^15.10.1",
     "uglify-es": "^3.3.10"
   },
   "homepage": "https://bitbucket.org/pasqualevitiello/switch#readme",
