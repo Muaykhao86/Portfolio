@@ -10,6 +10,27 @@
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 <body class="is-boxed has-animations">
+    <div class="construction" style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9999;
+    background: repeating-linear-gradient(45deg, #000, #000 10px, #ffc107 10px, #ffc107 20px);
+        ">
+                <h3 style="
+                color: #ffffff;
+                font-size: 2rem;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 0.5rem;
+                margin-bottom: 2rem;
+                "
+                 class="construction__title">Under Construction</h1>
+        </div>
+    </div>
     <div class="body-wrap boxed-container">
         <header class="site-header">
             <div class="container">
@@ -25,351 +46,227 @@
                 </div>
             </div>
         </header>
-
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Hi, I'm Daniel and I'm the developer you've been looking for</h1>
-	                        <p class="hero-paragraph">Please check out some of my latest projects or jump straight to my skillset</p>
-	                        <div class="hero-cta">
-								<a class="button button-primary" href="#skillset">Skillset</a>
-								<div class="lights-toggle">
-									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
-									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
-								</div>
-							</div>
-						</div>
-						<div class="hero-media">
-							<div class="header-illustration">
-								<img class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration">
-								<img class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
-							</div>
-							<div class="hero-media-illustration">
-								<img class="hero-media-illustration-image asset-light" src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
-								<img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
-							</div>
-							<div class="hero-media-container">
-								<!-- <img class="hero-media-image asset-light" src="dist/images/hero-media-light.svg" alt="Hero media">
-								<img class="hero-media-image asset-dark" src="dist/images/hero-media-dark.svg" alt="Hero media"> -->
-								<img class="hero-media-image asset-light" src="dist/images/spAvatar1.png" width="400" alt="Hero media">
-								<img class="hero-media-image asset-dark" src="dist/images/ssSP.png" width="400" alt="Hero media">
-							</div>
-						</div>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-copy">
+                        <h1 class="hero-title mt-0">Hi, I'm Daniel and I'm the developer you've been looking for</h1>
+                        <div class="hero-cta">
+                            <a class="button button-primary" href="#skillset">Skillset</a>
+                            <div class="lights-toggle">
+                                <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
+                                <label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-media">
+                        <div class="header-illustration">
+                            <img class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration">
+                            <img class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
+                        </div>
+                        <div class="hero-media-illustration">
+                            <img class="hero-media-illustration-image asset-light" src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
+                            <img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+                        </div>
+                        <div class="hero-media-container">
+                            <img class="hero-media-image asset-light" src="dist/images/spAvatar1.png" width="400" alt="Hero media">
+                            <img class="hero-media-image asset-dark" src="dist/images/ssSP.png" width="400" alt="Hero media">
+                        </div>
                     </div>
                 </div>
-            </section>
-
-            <section class="features section">
-                <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
-						<div class="features-header text-center">
-							<div class="container-sm">
-								<h2 class="section-title mt-0">Projects</h2>
-	                            <p class="section-paragraph">Below are some of my recent website applications and projects that I have been working on, please click the laptop to view the corrosponding Github page </p>
-								<div class="features-image">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
-									<img class="features-box asset-dark" src="src/images/eb2020.png" alt="Feature box">
-									<!-- <img class="features-illustration asset-dark" src="src/images/odysseySS-removebg.png" width="500" height="400" alt="Feature illustration top"> -->
-									<img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Feature illustration">
-									<img class="features-box asset-light" src="src/images/eb2020.png" alt="Feature box">
-									<!-- <img class="features-illustration asset-light" src="src/images/odysseySS-removebg.png" width="500" height="400"alt="Feature illustration top"> -->
-                                </div>
-							</div>
+            </div>
+        </section>
+        <section class="features section">
+            <div class="container">
+                <div class="features-inner section-inner has-bottom-divider">
+                    <div class="features-header text-center">
+                        <div class="container-sm">
+                            <h2 class="section-title mt-0">Projects</h2>
+                            <p class="section-paragraph">Below are some of my previous projects, I am currently updating this site to include more</p>
+                            <div class="features-image">
+                                <img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
+                                <img class="features-box asset-dark" src="src/images/eb2020.png" alt="Feature box">
+                                <!-- <img class="features-illustration asset-dark" src="src/images/odysseySS-removebg.png" width="500" height="400" alt="Feature illustration top"> -->
+                                <img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Feature illustration">
+                                <img class="features-box asset-light" src="src/images/eb2020.png" alt="Feature box">
+                                <!-- <img class="features-illustration asset-light" src="src/images/odysseySS-removebg.png" width="500" height="400"alt="Feature illustration top"> -->
+                            </div>
                         </div>
-                        <div class="features-wrap">
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <a target="_blank"href="https://eurobrake-10.waveflow18.now.sh/"><div class="feature-icon">
-										<img class="asset-light" src="src/images/ebnew.png" width="500" alt="Feature 01">
-										<img class="asset-dark" src="src/images/ebnew.png" width="500" alt="Feature 01">
-                                    </a></div>
-                                   <div class="feature-content">
-                                            <h3 class="feature-title mt-0">Eurobrake 2020</h3>
-                                            <p class="text-sm mb-0">
-                                               This is a Website that I created for an international event organisation. It's created with react/next and communicates with 
-                                               a php developers existing backend for users to signin and submit their papers and presentations for judging before the event.
-                                               It also has a ticket portal, access to a members area and more.
-                                            </p>
-                                            <div class="feature__links">
-                                                <a  target="_blank"class="feature__links-link" href="https://eurobrake-10.waveflow18.now.sh/">Website</a>
-                                            </div>
-                                    </div>
+                    </div>
+                    <div class="features-wrap">
+                        <div class="feature is-revealing">
+                            <div class="feature-inner">
+                                <a target="_blank"href="https://eurobrake-10.waveflow18.now.sh/"><div class="feature-icon">
+                                    <img class="asset-light" src="src/images/ebnew.png" width="500" alt="Feature 01">
+                                    <img class="asset-dark" src="src/images/ebnew.png" width="500" alt="Feature 01">
+                                </a></div>
+                               <div class="feature-content">
+                                        <h3 class="feature-title mt-0">Eurobrake 2020</h3>
+                                        <p class="text-sm mb-0">
+                                           This is a Website that I created for an international event organisation. It's created with react/next and communicates with 
+                                           a php developers existing backend for users to signin and submit their papers and presentations for judging before the event.
+                                           It also has a ticket portal, access to a members area and more.
+                                        </p>
+                                        <div class="feature__links">
+                                            <a  target="_blank"class="feature__links-link" href="https://eurobrake-10.waveflow18.now.sh/">Website</a>
+                                        </div>
                                 </div>
                             </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <a target="_blank"href="https://www.fisita.com/certificate"><div class="feature-icon">
-										<img class="asset-light" src="src/images/iecnew.png" width="500" alt="Feature 01">
-										<img class="asset-dark" src="src/images/iecnew.png" width="500" alt="Feature 01">
-                                    </a></div>
-                                   <div class="feature-content">
-                                            <h3 class="feature-title mt-0">International Engineers Certificate</h3>
-                                            <p class="text-sm mb-0">
-                                               This is a landing page that I built for a international event organisation. I used a Lamda function to collect interest for a new company product using DynamoDB and a existing send grid account to send a confirmation email that was designed in Adobe Dreamweaver.
-                                               It's created with react and is a static page served from a AWS S3 bucket using Serverless to develop, deploy, and monitor the page.
-                                            </p>
-                                            <div class="feature__links">
-                                                <a  target="_blank" class="feature__links-link" href="https://www.fisita.com/certificate">Website</a>
-                                            </div>
-                                    </div>
+                        </div>
+                        <div class="feature is-revealing">
+                            <div class="feature-inner">
+                                <a target="_blank"href="https://www.fisita.com/certificate"><div class="feature-icon">
+                                    <img class="asset-light" src="src/images/iecnew.png" width="500" alt="Feature 01">
+                                    <img class="asset-dark" src="src/images/iecnew.png" width="500" alt="Feature 01">
+                                </a></div>
+                               <div class="feature-content">
+                                        <h3 class="feature-title mt-0">International Engineers Certificate</h3>
+                                        <p class="text-sm mb-0">
+                                           This is a landing page that I built for a international event organisation. I used a Lamda function to collect interest for a new company product using DynamoDB and a existing send grid account to send a confirmation email that was designed in Adobe Dreamweaver.
+                                           It's created with react and is a static page served from a AWS S3 bucket using Serverless to develop, deploy, and monitor the page.
+                                        </p>
+                                        <div class="feature__links">
+                                            <a  target="_blank" class="feature__links-link" href="https://www.fisita.com/certificate">Website</a>
+                                        </div>
                                 </div>
                             </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <a target="_blank"href="https://github.com/Muaykhao86/odyssey"><div class="feature-icon">
-										<img class="asset-light" src="src/images/ody.png" width="500" alt="Feature 01">
-										<img class="asset-dark" src="src/images/ody.png" width="500" alt="Feature 01">
-                                    </a></div>
-                                   <div class="feature-content">
-                                            <h3 class="feature-title mt-0">Odyssey BJJ</h3>
-                                            <p class="text-sm mb-0">
-                                                Odyssey Bjj is a concept project I am currently working on. 
-                                                Its a video player website that allows JuJitsu instructors from different affiliate gyms to view a library of techniques, notes and view weekly instruction from the head instructor.
-                                                This is built using React, Redux, React router, Sass, CSS Grid and is hosted on Github pages.
-                                            </p>
-                                            <div class="feature__links">
-                                                <a  target="_blank"class="feature__links-link" href="https://muaykhao86.github.io/odyssey/">Website</a>
-                                            </div>
-                                    </div>
-								</div>
-                            </div>
-							<div class="feature is-revealing">
-                                <div class="feature-inner">
-                                   <a target="_blank"href="https://github.com/Muaykhao86/Smart-Brain"><div class="feature-icon">
-                                        <img class="asset-light" src="src/images/RSBR.png" width="500" alt="Feature 02">
-										<img class="asset-dark" src="src/images/RSBR.png" width="500" alt="Feature 02">
-                                    </a></div>
-                                    <div class="feature-content">
-                                        <h3 class="feature-title mt-0">Face Fixer 1.0/2.0</h3>
-                                            <p class="text-sm mb-0">
-                                                <span style="font-weight: bold;">1.0 -</span> The Face Fixer application uses the Clarifai face detection API to take in a photo, 
-                                                detect and place a resized CSS emoji with a perfect smile over it. 
-                                                It also keeps a record of users login details, hash encrypted passwords and how many photos they have used the API with.
-                                                <br>
-                                                Its front end is built using React, Flexbox, Tacyons. 
-                                                The Back end is built using PostgreSQL.js, Express.js, bcrypt-node.js and hosted on Heroku.
-                                                <br>
-                                                <span style="font-weight: bold;">2.0 -</span> The upgraded version of face fixer has been dockerised, had session management implemented using JWT and Redis database. User profile editing options added aswell.
-                                            </p>
-                                            <div class="feature__links">
-                                                <a target="_blank"class="feature__links-link" href="https://smt-brain.herokuapp.com/">Website V1</a>
-                                            </div>
-                                            <div class="feature__links">
-                                                <a target="_blank"class="feature__links-link" href="">Dockerised V2 Frontend</a>
-                                                <a target="_blank"class="feature__links-link" href="">Dockerised V2 Backend</a>
-                                            </div>
+                        </div>
+
+                        <div class="feature is-revealing">
+                            <div class="feature-inner">
+                               <a target="_blank"href="https://github.com/Muaykhao86/Smart-Brain"><div class="feature-icon">
+                                    <img class="asset-light" src="src/images/RSBR.png" width="500" alt="Feature 02">
+                                    <img class="asset-dark" src="src/images/RSBR.png" width="500" alt="Feature 02">
+                                </a></div>
+                                <div class="feature-content">
+                                    <h3 class="feature-title mt-0">Face Fixer 1.0/2.0</h3>
+                                        <p class="text-sm mb-0">
+                                            <span style="font-weight: bold;">1.0 -</span> The Face Fixer application uses the Clarifai face detection API to take in a photo, 
+                                            detect and place a resized CSS emoji with a perfect smile over it. 
+                                            It also keeps a record of users login details, hash encrypted passwords and how many photos they have used the API with.
+                                            <br>
+                                            Its front end is built using React, Flexbox, Tacyons. 
+                                            The Back end is built using PostgreSQL.js, Express.js, bcrypt-node.js and hosted on Heroku.
+                                            <br>
+                                            <span style="font-weight: bold;">2.0 -</span> The upgraded version of face fixer has been dockerised, had session management implemented using JWT and Redis database. User profile editing options added aswell.
+                                        </p>
+                                        <div class="feature__links">
+                                            <a target="_blank"class="feature__links-link" href="https://smt-brain.herokuapp.com/">Website V1</a>
+                                        </div>
+                                        <div class="feature__links">
+                                            <a target="_blank"class="feature__links-link" href="">Dockerised V2 Frontend</a>
+                                            <a target="_blank"class="feature__links-link" href="">Dockerised V2 Backend</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="feature is-revealing">
-                                    <div class="feature-inner">
-                                        <a target="_blank"href="https://github.com/Muaykhao86/RickandMorty"><div class="feature-icon"> 
-                                            <img class="asset-light" src="src/images/rmy.png" width="500" alt="Feature 03">
-                                            <img class="asset-dark" src="src/images/rmy.png" width="500" alt="Feature 03">
-                                        </div></a>
-                                        <div class="feature-content">
-                                            <h3 class="feature-title mt-0">Rick and Morty Character Generator </h3>
-                                            <p class="text-sm mb-0">
-                                                Rick and Morty CG is a Progressive Web Application (PWA) that I created using the Rick and Morty api. 
-                                                Its a basic app but uses some interesting css annimations.
-                                                Built using React, Sass and CSS Grid
-                                            </p>
-                                            <div class="feature__links">
-                                            <a target="_blank"class="feature__links-link" href="https://muaykhao86.github.io/RickandMorty/">Website</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="feature is-revealing">
-                                    <div class="feature-inner">
-                                        <a target="_blank"href="https://github.com/Muaykhao86/robofriends"><div class="feature-icon">
-                                            <img class="asset-light" src="src/images/rby.png" width="500" alt="Feature 03">
-                                            <img class="asset-dark" src="src/images/rby.png" width="500" alt="Feature 03">
-                                        </a></div>
-                                        <div class="feature-content">
-                                            <h3 class="feature-title mt-0">Robofriends</h3>
-                                            <p class="text-sm mb-0">
-                                                Robofriends is a SPA I built while learning from Andrei Neagoie. 
-                                                Its Built using React, Redux , React router and I have used it to practice and demonstate code splitting, React performance, and building PWA's.
-                                            </p>
-                                            <div class="feature__links">
-                                            <a target="_blank"class="feature__links-link" href="https://muaykhao86.github.io/robofriends/">Website</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="feature is-revealing">
-                                    <div class="feature-inner">
-                                        <a target="_blank"href="https://github.com/Muaykhao86/natours"><div class="feature-icon">
-                                            <img class="asset-light" src="src/images/nty.png" width="500" alt="Feature 03">
-                                            <img class="asset-dark" src="src/images/nty.png" width="500" alt="Feature 03">
-                                        </a></div>
-                                        <div class="feature-content">
-                                            <h3 class="feature-title mt-0">Advanced Css </h3>
-                                            <p class="text-sm mb-0">
-                                                This is a site I built while learning some advanced CSS from Jonas Schmedtmann.
-                                                This website is built almost entirely by CSS, it uses 
-                                                only a few lines of Javascript. The website on display is using a float grid system and some amazing css,
-                                                I have two more on Github that are built using Flexbox and CSS Grid respectfully, the links are below.
-                                            </p>
-                                            <div class="feature__links">
-                                                <a target="_blank"class="feature__links-link" href="https://muaykhao86.github.io/natours/">Natours</a>
-                                                <a target="_blank"class="feature__links-link" href="https://muaykhao86.github.io/nexter/">Nexter</a>
-                                                <a target="_blank"class="feature__links-link" href="https://muaykhao86.github.io/trillo/">Trillo</a>
-                                                <a target="_blank"class="feature__links-link" href="https://github.com/Muaykhao86">Github</a>
-                                            </div>
-                                        </div>
-								</div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+        <section class="cta section container text-center cta-inner " id="skillset">
+            <div class=" section-inner">
+                <h2 class="cta-header section-title mt-0 text-center">About Me</h2>
+                    <div class="card-container">
 
-			<section class="cta section container text-center cta-inner " id="skillset">
-                <!-- <div class="container">
-                    <!-- <div class=""> -->
-                    <div class=" section-inner">
-                        <h2 class="cta-header section-title mt-0 text-center">SkillSet</h2>
-                            <div class="card-container">
-
-                                <div class="card">
-                                    <div class="card__side card__side-front">
-                                        <h4 class="card__heading card__heading-span" >
-                                                What I can do
-                                        </h4> 
-                                        <div class="bg-video">
-                                                <video class="bg-video__content" autoplay muted loop  ><!--html5 video alllows you to embed videos delete the src from before class and put it inside the tab instead, autoplay, muted and loop are video commmands that you have to add to control the video-->
-                                                    <source src="src/images/vidD.mp4" type="video/mp4"><!--html5 source tag-->
-                                                    <source src="src/images/vidD.webm" type="video/webm"><!--need two formats to make sure it works across all modern browsers-->
-                                                    Your browser is not supported<!--If it doesnt work it shows this-->
-                                                </video>
-                                        </div>
-
-                                    </div>
-                                    <div class="card__side card__side-back">
-                                        <h4 class="card__side-back-heading">
-                                            Anything!
-                                        </h4>
-                                        <ul class="card__para card__list" >
-                                            <li class="card__list-first">I can...</li>
-                                            <li>Build and improve websites</li>
-                                            <li>Make your website look great on all devices</li>
-                                            <li>Build shopify stores and help you find the right products</li>
-                                            <li>Run Facebook ads</li> 
-                                            <li>Help you find your competition</li>
-                                        </ul>
-                                            
-                                        <h4 class="card__side-back-heading" >Any problem, we can solve it!</h4>
-                                        </div>
+                        <div class="card">
+                            <div class="card__side card__side-front">
+                                <h4 class="card__heading card__heading-span" >
+                                        Skills
+                                </h4> 
+                                <div class="bg-video">
+                                        <video class="bg-video__content" autoplay muted loop  ><!--html5 video alllows you to embed videos delete the src from before class and put it inside the tab instead, autoplay, muted and loop are video commmands that you have to add to control the video-->
+                                            <source src="src/images/vidD.mp4" type="video/mp4"><!--html5 source tag-->
+                                            <source src="src/images/vidD.webm" type="video/webm"><!--need two formats to make sure it works across all modern browsers-->
+                                            Your browser is not supported<!--If it doesnt work it shows this-->
+                                        </video>
                                 </div>
-                                <div class="card">
-                                    <div class="card__side card__side-front">
-                                            <h4 class="card__heading card__heading-span" >
-                                                Languages I like to speak
-                                            </h4>
-                                            <div class="bg-video">
-                                                    <video class="bg-video__content" autoplay muted loop ><!--html5 video alllows you to embed videos delete the src from before class and put it inside the tab instead, autoplay, muted and loop are video commmands that you have to add to control the video-->
-                                                        <source src="src/images/vidD.mp4" type="video/mp4"><!--html5 source tag-->
-                                                        <source src="src/images/vidD.webm" type="video/webm"><!--need two formats to make sure it works across all modern browsers-->
-                                                        Your browser is not supported<!--If it doesnt work it shows this-->
-                                                    </video>
-                                                </div>
-                                    </div>
-                                    <div class="card__side card__side-back">
-                                            <p class="card__para" >
-                                                Currently I am devoted to Javascript.
-                                                React is my library of choice but
-                                                I am constantly learning, adding new skills to my tool belt 
-                                                and keeping up with with new tools and trends.
-                                            </p>
-                                            
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card__side card__side-front">
-                                            <h4 class="card__heading card__heading-span" >
-                                               About Me
-                                            </h4>
-                                            <div class="bg-video">
-                                                    <video class="bg-video__content" autoplay muted loop ><!--html5 video alllows you to embed videos delete the src from before class and put it inside the tab instead, autoplay, muted and loop are video commmands that you have to add to control the video-->
-                                                        <source src="src/images/vidD.mp4" type="video/mp4"><!--html5 source tag-->
-                                                        <source src="src/images/vidD.webm" type="video/webm"><!--need two formats to make sure it works across all modern browsers-->
-                                                        Your browser is not supported<!--If it doesnt work it shows this-->
-                                                    </video>
-                                                </div>
 
-                                    </div>
-                                    <div class="card__side card__side-back">
-                                            <p class="card__para">
-                                                I am a full stack self taught Developer 
-                                                with a passion for problem solving and making things 
-                                                look good!
-                                                If you want to know more about me... 
-                                                <div class="">
-                                                        <a class="button button-primary" id="aboutMeButton">Click Me</a>
-                                                </div>
-                                            </p>
-                                    </div>
+                            </div>
+                            <div class="card__side card__side-back">
+                                <h4 class="card__side-back-heading">
+                                    What makes me me...
+                                </h4>
+                                <ul class="card__para card__list" >
+                                    <li>I am enthusiastic</li> 
+                                    <li>I love to learn new things</li>
+                                    <li>I have strong problem solving skills</li>
+                                    <li>I have great attention to detail</li>
+                                    <li>I am a team player</li>  
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__side card__side-front">
+                                <h4 class="card__heading card__heading-span" >
+                                    My weapons of choice
+                                </h4>
+                                <div class="bg-video">
+                                    <video class="bg-video__content" autoplay muted loop ><!--html5 video alllows you to embed videos delete the src from before class and put it inside the tab instead, autoplay, muted and loop are video commmands that you have to add to control the video-->
+                                        <source src="src/images/vidD.mp4" type="video/mp4"><!--html5 source tag-->
+                                        <source src="src/images/vidD.webm" type="video/webm"><!--need two formats to make sure it works across all modern browsers-->
+                                        Your browser is not supported<!--If it doesnt work it shows this-->
+                                    </video>
                                 </div>
                             </div>
-
-                            <div class="cta-cta mt-16">
-                                <a target="_blank" class="button button-primary mb-8" href="https://github.com/Muaykhao86">Github</a>
+                            <div class="card__side card__side-back">
+                                <h4 class="card__side-back-heading">
+                                    My main tool belt
+                                </h4>
+                                <ul class="card__para card__list" >
+                                    <li>Javascript</li> 
+                                    <li>Node JS</li>
+                                    <li>React</li>
+                                    <li>AWS</li>
+                                </ul>
                             </div>
-					    <!-- </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__side card__side-front">
+                                    <h4 class="card__heading card__heading-span" >
+                                        In Progress
+                                    </h4>
+                                    <div class="bg-video">
+                                            <video class="bg-video__content" autoplay muted loop ><!--html5 video alllows you to embed videos delete the src from before class and put it inside the tab instead, autoplay, muted and loop are video commmands that you have to add to control the video-->
+                                                <source src="src/images/vidD.mp4" type="video/mp4"><!--html5 source tag-->
+                                                <source src="src/images/vidD.webm" type="video/webm"><!--need two formats to make sure it works across all modern browsers-->
+                                                Your browser is not supported<!--If it doesnt work it shows this-->
+                                            </video>
+                                        </div>
+
+                            </div>
+                            <div class="card__side card__side-back">
+                                <h4 class="card__side-back-heading">
+                                    Currently Learning
+                                </h4>
+                                <ul class="card__para card__list" >
+                                    <li>Python</li>
+                                    <li>Terraform</li> 
+                                    <li>Ansible</li>
+                                    <li>Docker</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div> -->
-            </section>
-    
-            <section id="aboutMe" class="aboutMe">
-                <div class="aboutMe__container">
-                    <div class="aboutMe__details">
-                        <h4 class="aboutMe__details-head"> Hey! So you want to know more about me?</h4>
-                        <p class=" aboutMe__details-1">
-                            My name is Daniel Hardiman. 
-                            
-                            I left school and went to college to become a qualified electrician, but I have always been interested in technology,  problem solving and had a general interest in how things work.
-                        </p>
-                        <p class="aboutMe__details-2">
-                            I spent around ten years as an electrician, getting involved in different areas of work and mainly working in London. I worked in the city for the last five years as part of a in-house team where I progressed myself further as an electrician and as a person. I had some great times there and met some amazing people, I was awarded the freedom of the city for my work and was also a production manager for a three stage music festival we put on for Oxfam which was another great experience.
-                        </p>    
-                        <p class="aboutMe__details-2">
-                            Opportunity came along when I moved on to the role of a train engineer for three years.
-                            Sadly the pace was a little too slow for me, the technical work where you really had to rack your brains was far and few between and the training there wasn’t what I had expected.
-                        </p>  
-                        <p class="aboutMe__details-2">    
-                            During my free time I taught myself about import and export, affiliate marketing, how to build online stores using Shopify, amazon and eBay and how to target customers using Facebook advertising. Whilst this was interesting and brought in a nice side income I still found myself wanting more and any problem that I encountered I believed could have been solved by learning to code.
-                            I have also been a life long martial artist and trained at least five days a week, I have been traveling for my sport in the past but I had always wanted to travel for longer and to train with the best in the world. 
-                            This, my situation at work and Bitcoin led me to go traveling for a year.                         
-                        </p>
-                        <p class="aboutMe__details-3">
-                            My fiancé and I began in Sri Lanka, we spent a month there and then moved over to India for two months. We then spent the rest of the year in Thailand.
-                            
-                            I decided that during my time away I would teach my self to code properly. I had tried before using platforms like freeCodeCamp, reading ‘how to’ books etc but nothing had ever really gripped me as I never really got to any real world applications…Not this year though, I was going to commit and get results!
-                            
-                            I found some great courses on Udemy and Im grateful to have found such amazing teachers, who also have amazing students who have also helped me along my journey.
-                        </p>
-                        <p class="aboutMe__details-3" >
-                            I was training in the gym nearly everyday, coding any second that I had free and when I wasn’t, I was reading books on coding. I really threw myself into it and loved it. 
-                            
-                            Life was great and everything was going well until I caught an infection that would stay with me for the next 9 months. This was quite a blow and was certainly not how I hoped and imagined our year away would end but I look at it now as a blessing in disguise. 
-                            
-                            I was immobile but this meant that I was still able to code, keep myself busy and really indulge my self into Javascript. 
-                        </p>
-                        <p class="aboutMe__details-3">
-                            This brings us up to date! Apr 2019. I am now healthy and can train again, I still code everyday, working on projects and I am now looking to join a company who I can learn, grow and build with!
-                        </p>
-                        <p class="aboutMe__details-4">
-                            Thank you for showing an interest in me and please contact me if you have any questions at all!
-                        </p>
-                        <button class="button" id="close">Close</button>
+
+                    <div class="cta-cta mt-16">
+                        <a target="_blank" class="button button-primary mb-8" href="https://github.com/Muaykhao86">Github</a>
                     </div>
+                    <div class="" style="    visibility: hidden;">
+                        <a class="button button-primary" id="aboutMeButton">About Me</a>
                 </div>
-            </section>
-        </main>
+        </section>
+        <section id="aboutMe" class="aboutMe">
+            <div class="aboutMe__container">
+                <div class="aboutMe__details">
+                    Comming Soon...
+                    <button class="button" id="close">Close</button>
+                </div>
+            </div>
+        </section>
+    </main>
 
         <footer class="site-footer has-top-divider">
             <div class="container">
@@ -380,7 +277,6 @@
 							<img class="asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
                         </a>
                     </div>
-                        <a class="footer-links" id="contactButton" >Contact</a>
                     <div class="footer-links">&copy; 2020 Daniel Hardiman All rights reserved</div>
                 </div>
             </div>
